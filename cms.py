@@ -7,8 +7,6 @@ import glob
 # Usage, when specifying the directory, affirm that it includes the full path
 #
 
-#			if(fnmatch.fnmatch(name, '*.c') or fnmatch.fnmatch(name, '*.h')):
-
 root = "c:/users/benbe/desktop/c"
 
 fList = []
