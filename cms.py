@@ -21,7 +21,7 @@ def finalize(t):
 def listf(d):
 	fList = []
 
-	for path, dirs, files in os.walk('c:/users/benbe/desktop/c'):
+	for path, dirs, files in os.walk(d):
 		for f in glob.iglob(os.path.join(path, '', '*.c')):
 			fList.append(f)
 	
