@@ -7,8 +7,6 @@ import glob
 # Usage, when specifying the directory, affirm that it includes the full path
 #
 
-root = "c:/users/benbe/desktop/c"
-
 fList = []
 
 def finalize(t):
